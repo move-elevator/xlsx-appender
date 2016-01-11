@@ -1,0 +1,19 @@
+{
+  "name": "freshp/XlsxAppender",
+  "description": "Append data to existing xlsx file",
+  "type": "library",
+  "keywords": ["php","write","xlsx","office","excel"],
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/freshp/XlsxAppender",
+  "authors": [
+	{
+	  "name": "Steve Schütze",
+	  "email": "steveschuetze@wissens-mag.net"
+	}
+  ],
+  "autoload": {
+	"psr-4": {
+	  "Sts\\": "XlsxAppender"
+	}
+  }
+}
