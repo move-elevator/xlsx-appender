@@ -26,7 +26,7 @@ class XlsxAppender {
 	/**
 	 * XlsxAppender constructor.
 	 *
-	 * @param $filePath
+	 * @param string $filePath
 	 */
 	public function __construct($filePath) {
 		$this->filePath = $filePath;
@@ -76,6 +76,33 @@ class XlsxAppender {
 		$newFileData = str_replace($anchor, $newContent, $oldContent);
 		$this->archiveHelper->deleteName($sheet->getPath());
 		$this->archiveHelper->addFromString($sheet->getPath(), $newFileData);
+	}
+
+	/**
+	 * @param string $tempFilePath
+	 * @param XlsxSheet $sheet
+	 * @throws \Exception
+	 */
+	public function appendTempFileToSheet($tempFilePath, $sheet) {
+		$oldContent = $this->archiveHelper->getFromName($sheet->getPath());
+		$anchor = '</sheetData>';
+
+		$newContent = file_get_contents($tempFilePath);
+		$newContent .= $anchor;
+
+		if ($newContent === FALSE) {
+			throw new \Exception('tempfile is not readable', 1452592557);
+		}
+
+		if (substr_count($oldContent, $anchor) !== 1) {
+			throw new \Exception('could not find anchor', 1452522446);
+		}
+
+		$newFileData = str_replace($anchor, $newContent, $oldContent);
+		$this->archiveHelper->deleteName($sheet->getPath());
+		$this->archiveHelper->addFromString($sheet->getPath(), $newFileData);
+
+		unlink($tempFilePath);
 	}
 
 	/**

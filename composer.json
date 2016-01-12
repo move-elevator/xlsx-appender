@@ -3,7 +3,11 @@
   "description": "Append data to existing xlsx file",
   "type": "library",
   "keywords": ["php","write","xlsx","office","excel"],
-  "license": "Apache-2.0",
+  "license": "MIT",
+  "require": {
+	"phpunit/phpunit": "@stable",
+	"phpbench/phpbench": "@stable"
+  },
   "homepage": "https://github.com/freshp/XlsxAppender",
   "authors": [
 	{
