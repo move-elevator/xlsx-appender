@@ -1,5 +1,5 @@
 {
-  "name": "freshp/XlsxAppender",
+  "name": "freshp/xlsx-appender",
   "description": "Append data to existing xlsx file",
   "type": "library",
   "keywords": ["php","write","xlsx","office","excel"],
