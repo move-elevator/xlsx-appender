@@ -1,4 +1,7 @@
 [![Build Status](https://travis-ci.org/freshp/xlsx-appender.svg?branch=master)](https://travis-ci.org/freshp/xlsx-appender)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](LICENSE.md)
+[![Latest Stable Version](https://poser.pugx.org/freshp/xlsx-appender/v/stable)](https://packagist.org/packages/freshp/xlsx-appender)
+[![Total Downloads](https://poser.pugx.org/freshp/xlsx-appender/downloads)](https://packagist.org/packages/freshp/xlsx-appender)
 
 # Append data to existing xlsx file
 
