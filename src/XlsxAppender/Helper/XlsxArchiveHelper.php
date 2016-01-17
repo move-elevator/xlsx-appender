@@ -71,7 +71,7 @@ class XlsxArchiveHelper extends \ZipArchive {
 
 		$sheet = new XlsxSheet();
 		$sheet->setName((string)$sheetData['name']);
-		$sheet->setId((int)$sheetData['sheetId']);
+		$sheet->setSheetId((int)$sheetData['sheetId']);
 
 		$this->sheets->offsetSet((string)$attributeNamespace->id, $sheet);
 
