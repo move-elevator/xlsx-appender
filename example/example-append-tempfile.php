@@ -14,7 +14,7 @@ foreach ($data as $item) {
 
 file_put_contents($tempFile, $newContent, FILE_APPEND);
 
-$xlsxAppender = new \Sts\XlsxAppender\XlsxAppender(__DIR__ . '/test.xlsx');
+$xlsxAppender = new \Sts\XlsxAppender\XlsxAppender(__DIR__ . '/../tests/fixtures/test.xlsx');
 $sheet = $xlsxAppender->getSheetPathBySheetName('sheet1');
 $xlsxAppender->appendTempFileToSheet($tempFile, $sheet);
 $xlsxAppender->saveAndExit();

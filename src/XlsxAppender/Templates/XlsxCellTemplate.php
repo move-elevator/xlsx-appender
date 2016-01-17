@@ -19,7 +19,7 @@ class XlsxCellTemplate {
 	 *
 	 * @param string $coordinate
 	 * @param mixed $value
-	 * @throws \Exception
+	 * @throws \InvalidArgumentException
 	 */
 	public function __construct($coordinate, $value) {
 		switch (gettype($value)) {
@@ -34,7 +34,7 @@ class XlsxCellTemplate {
 				$this->template = XlsxCellStringTemplate::getCellCode($coordinate, $value);
 				break;
 			default:
-				throw new \Exception('not supported type of value', 1452518828);
+				throw new \InvalidArgumentException('not supported type of value', 1452518828);
 		}
 	}
 
