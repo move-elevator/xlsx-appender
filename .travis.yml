@@ -15,4 +15,5 @@ before_script:
 
 script:
   - ./vendor/bin/phpunit
+  - ./vendor/bin/phpmd src/XlsxAppender/ xml design,naming,unusedcode,codesize,controversial
   - php ./vendor/bin/phpbench run ./benchmarks/ --config=./phpbench.json --report=default

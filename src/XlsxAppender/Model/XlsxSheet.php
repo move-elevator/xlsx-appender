@@ -12,7 +12,7 @@ class XlsxSheet {
 	/**
 	 * @var integer
 	 */
-	protected $id;
+	protected $sheetId;
 
 	/**
 	 * @var string
@@ -27,15 +27,15 @@ class XlsxSheet {
 	/**
 	 * @return int
 	 */
-	public function getId() {
-		return $this->id;
+	public function getSheetId() {
+		return $this->sheetId;
 	}
 
 	/**
-	 * @param int $id
+	 * @param int $sheetId
 	 */
-	public function setId($id) {
-		$this->id = $id;
+	public function setSheetId($sheetId) {
+		$this->sheetId = $sheetId;
 	}
 
 	/**

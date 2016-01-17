@@ -33,7 +33,7 @@ class XlsxAppenderTest extends PHPUnit_Framework_TestCase {
 		$sheet = $this->fixture->getSheetPathBySheetName('sheet1');
 		$this->assertEquals('sheet1', $sheet->getName());
 		$this->assertEquals('xl/worksheets/sheet1.xml', $sheet->getPath());
-		$this->assertEquals(1, $sheet->getId());
+		$this->assertEquals(1, $sheet->getSheetId());
 	}
 
 	/**

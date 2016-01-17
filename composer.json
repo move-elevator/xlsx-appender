@@ -6,7 +6,8 @@
   "license": "MIT",
   "require": {
 	"phpunit/phpunit": "@stable",
-	"phpbench/phpbench": "@stable"
+	"phpbench/phpbench": "@stable",
+	"phpmd/phpmd": "@stable"
   },
   "homepage": "https://github.com/freshp/XlsxAppender",
   "authors": [

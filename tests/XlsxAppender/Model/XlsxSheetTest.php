@@ -38,10 +38,10 @@ class XlsxSheetTest extends PHPUnit_Framework_TestCase {
 	/**
 	 * @test
 	 */
-	public function setAndGetIdTest() {
+	public function setAndGetSheetIdTest() {
 		$id = '123';
-		$this->fixture->setId($id);
-		$this->assertEquals($id, $this->fixture->getId());
+		$this->fixture->setSheetId($id);
+		$this->assertEquals($id, $this->fixture->getSheetId());
 	}
 
 	/**
