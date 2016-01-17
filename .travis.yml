@@ -10,4 +10,4 @@ php:
 sudo: false
 
 script:
-  - php vendor/bin/phpbench run --config=phpbench.json
+  - php ./vendor/bin/phpbench run ./benchmarks/ --config=./phpbench.json --report=default
