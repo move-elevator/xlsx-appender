@@ -9,7 +9,7 @@
 	"phpbench/phpbench": "@stable",
 	"phpmd/phpmd": "@stable"
   },
-  "homepage": "https://github.com/move-elevator/XlsxAppender",
+  "homepage": "https://github.com/move-elevator/xlsx-appender",
   "authors": [
 	{
 	  "name": "Steve Schütze",
