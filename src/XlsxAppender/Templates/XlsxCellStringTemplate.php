@@ -1,11 +1,11 @@
 <?php
 
-namespace Sts\XlsxAppender\Templates;
+namespace MoveElevator\XlsxAppender\Templates;
 
 /**
  * Class XlsxCellStringTemplate
  *
- * @package Sts\XlsxAppender\Templates
+ * @package MoveElevator\XlsxAppender\Templates
  */
 class XlsxCellStringTemplate implements IXlsxCellTemplate {
 

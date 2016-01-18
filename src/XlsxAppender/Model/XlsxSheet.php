@@ -1,11 +1,11 @@
 <?php
 
-namespace Sts\XlsxAppender\Model;
+namespace MoveElevator\XlsxAppender\Model;
 
 /**
  * Class XlsxSheet
  *
- * @package Sts\XlsxAppender\Model
+ * @package MoveElevator\XlsxAppender\Model
  */
 class XlsxSheet {
 

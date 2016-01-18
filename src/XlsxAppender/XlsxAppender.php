@@ -1,15 +1,15 @@
 <?php
 
-namespace Sts\XlsxAppender;
+namespace MoveElevator\XlsxAppender;
 
-use Sts\XlsxAppender\Helper\XlsxArchiveHelper;
-use Sts\XlsxAppender\Model\XlsxSheet;
-use Sts\XlsxAppender\Templates\XlsxRowTemplate;
+use MoveElevator\XlsxAppender\Helper\XlsxArchiveHelper;
+use MoveElevator\XlsxAppender\Model\XlsxSheet;
+use MoveElevator\XlsxAppender\Templates\XlsxRowTemplate;
 
 /**
- * Class Sts\XlsxAppender
+ * Class MoveElevator\XlsxAppender
  *
- * @package Sts
+ * @package MoveElevator
  */
 class XlsxAppender {
 

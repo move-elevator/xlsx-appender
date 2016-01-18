@@ -1,14 +1,14 @@
 <?php
 
-namespace Sts\XlsxAppender\Helper;
+namespace MoveElevator\XlsxAppender\Helper;
 
-use Sts\XlsxAppender\Model\XlsxSheet;
-use Sts\XlsxAppender\Model\XlsxSheetCollection;
+use MoveElevator\XlsxAppender\Model\XlsxSheet;
+use MoveElevator\XlsxAppender\Model\XlsxSheetCollection;
 
 /**
  * Class XlsxArchiveHelper
  *
- * @package Sts\XlsxAppender\Helper
+ * @package MoveElevator\XlsxAppender\Helper
  */
 class XlsxArchiveHelper extends \ZipArchive {
 

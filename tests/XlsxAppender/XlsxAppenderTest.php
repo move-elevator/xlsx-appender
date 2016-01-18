@@ -1,6 +1,6 @@
 <?php
 
-use Sts\XlsxAppender\XlsxAppender;
+use MoveElevator\XlsxAppender\XlsxAppender;
 
 /**
  * Class XlsxAppenderTest

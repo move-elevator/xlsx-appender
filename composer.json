@@ -1,5 +1,5 @@
 {
-  "name": "freshp/xlsx-appender",
+  "name": "move-elevator/xlsx-appender",
   "description": "Append data to existing xlsx file",
   "type": "library",
   "keywords": ["php","write","xlsx","office","excel"],
@@ -9,16 +9,16 @@
 	"phpbench/phpbench": "@stable",
 	"phpmd/phpmd": "@stable"
   },
-  "homepage": "https://github.com/freshp/XlsxAppender",
+  "homepage": "https://github.com/move-elevator/XlsxAppender",
   "authors": [
 	{
 	  "name": "Steve Schütze",
-	  "email": "steveschuetze@wissens-mag.net"
+	  "email": "sts@move-elevator.de"
 	}
   ],
   "autoload": {
 	"psr-4": {
-	  "Sts\\": "src"
+	  "MoveElevator\\": "src"
 	}
   }
 }

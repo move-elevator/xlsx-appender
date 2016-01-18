@@ -1,6 +1,6 @@
 <?php
 
-use \Sts\XlsxAppender\Templates\XlsxCellTemplate;
+use MoveElevator\XlsxAppender\Templates\XlsxCellTemplate;
 
 /**
  * Class XlsxCellTemplateTest

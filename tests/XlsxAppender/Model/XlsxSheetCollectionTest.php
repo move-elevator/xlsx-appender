@@ -1,6 +1,6 @@
 <?php
 
-use \Sts\XlsxAppender\Model\XlsxSheetCollection;
+use MoveElevator\XlsxAppender\Model\XlsxSheetCollection;
 
 /**
  * Class XlsxSheetCollectionTest

@@ -1,6 +1,6 @@
 <?php
 
-use Sts\XlsxAppender\Templates\XlsxRowTemplate;
+use MoveElevator\XlsxAppender\Templates\XlsxRowTemplate;
 
 /**
  * Class XlsxRowTemplateBench
