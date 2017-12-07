@@ -29,12 +29,11 @@ class XlsxCellTemplate {
 			case 'integer':
 				$this->template = XlsxCellIntegerTemplate::getCellCode($coordinate, $value);
 				break;
+			default:
 			case 'string':
 			case 'NULL':
 				$this->template = XlsxCellStringTemplate::getCellCode($coordinate, $value);
 				break;
-			default:
-				throw new \InvalidArgumentException('not supported type of value', 1452518828);
 		}
 	}
 
