@@ -38,11 +38,11 @@ class XlsxCellTemplateTest extends PHPUnit_Framework_TestCase {
 
 	/**
 	 * @test
-	 * @expectedException InvalidArgumentException
-	 * @expectedExceptionMessage not supported type of value
 	 */
 	public function testException() {
 		$value = 123.00;
 		$templateClass = new XlsxCellTemplate('A1', $value);
+		$this->assertContains('t="inlineStr"', $templateClass->getTemplateString());
+		$this->assertContains((string)$value, $templateClass->getTemplateString());
 	}
 }
