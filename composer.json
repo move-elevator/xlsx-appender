@@ -5,9 +5,9 @@
   "keywords": ["php","write","xlsx","office","excel"],
   "license": "MIT",
   "require": {
-	"php": ">=5.5",
+	"php": ">=5.6",
 	"phpunit/phpunit": "~5.7",
-	"phpbench/phpbench": "~0.14",
+	"phpbench/phpbench": "~0.13",
 	"phpmd/phpmd": "~2.6"
   },
   "homepage": "https://github.com/move-elevator/xlsx-appender",
