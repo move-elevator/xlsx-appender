@@ -1,25 +1,26 @@
 {
-  "name": "move-elevator/xlsx-appender",
-  "description": "Append data to existing xlsx file",
-  "type": "library",
-  "keywords": ["php","write","xlsx","office","excel"],
-  "license": "MIT",
-  "require": {
-	"php": ">=5.6",
-	"phpunit/phpunit": "~5.7",
-	"phpbench/phpbench": "~0.13",
-	"phpmd/phpmd": "~2.6"
-  },
-  "homepage": "https://github.com/move-elevator/xlsx-appender",
-  "authors": [
-	{
-	  "name": "Steve Schütze",
-	  "email": "sts@move-elevator.de"
-	}
-  ],
-  "autoload": {
-	"psr-4": {
-	  "MoveElevator\\": "src"
-	}
-  }
+    "name": "move-elevator/xlsx-appender",
+    "description": "Append data to existing xlsx file",
+    "type": "library",
+    "keywords": [
+        "php",
+        "write",
+        "xlsx",
+        "office",
+        "excel"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.7",
+        "phpbench/phpbench": "~0.13",
+        "phpmd/phpmd": "~2.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "MoveElevator\\": "src"
+        }
+    }
 }
